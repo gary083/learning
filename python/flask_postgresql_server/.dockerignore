@@ -1,0 +1,22 @@
+# Python cache files
+**/__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directory (if applicable)
+.venv/
+venv/
+env/
+
+# Dockerfile itself (often not needed inside the image)
+Dockerfile
+
+# .dockerignore file itself
+.dockerignore
+
+# Git directory
+.git/
+
+# Other project-specific files you might want to ignore
+*.log

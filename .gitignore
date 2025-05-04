@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Logs & temp
+*.log
+*.tmp
+*.pid
+*.swp
+*.swo
+*~
+
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Databases
+*.sqlite
+*.db
+*.db-journal
+
+# Docker
+docker-compose.override.yml
+pgdata/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Node / Front‑end
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+public/build/
+
+# Misc
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
